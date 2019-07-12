@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "story_id": {
+      "type": "string"
+    },
+    "story_version": {
+      "type": "string"
+    },
+    "node_id": {
+      "type": "string"
+    },
+    "device_id": {
+      "type": "string"
+    },
+    "app_id": {
+      "type": "string"
+    },
+    "session_id": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string",
+      "enum": [
+        "ENTER",
+        "LEAVE"
+      ]
+    },
+    "platform": {
+      "type": "string",
+      "enum": [
+        "ios",
+        "android",
+        "web"
+      ]
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "story_id",
+    "story_version",
+    "node_id",
+    "device_id",
+    "app_id",
+    "session_id",
+    "action",
+    "platform",
+    "timestamp"
+  ]
+}
