@@ -1,0 +1,1 @@
+Gamebook Analytics Schema
