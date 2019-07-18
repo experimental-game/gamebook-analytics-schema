@@ -1,0 +1,25 @@
+{
+  "connectionOption": {
+    "keepAlive": true
+  },
+  "httpOption": {
+    "httpsEnabled": true,
+    "protocolPrecedence": ["http/2", "http/1.1"],
+    "headers": [
+      { "key": "Connection", "value": "keep-alive" },
+      {
+        "key": "Content-Type",
+        "value": "application/json"
+      }
+    ]
+  },
+  "baseUrl": "https://analytics.gamebook.io",
+  "api": {
+    "createHit": {
+      "path": "/hit",
+      "method": "POST",
+      "requestModelPath": "schemas/hit-schema.json",
+      "responseModelPath": "schemas/response-schema.json"
+    }
+  }
+}
