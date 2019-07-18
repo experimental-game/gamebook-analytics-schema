@@ -11,6 +11,9 @@
     "node_id": {
       "type": "string"
     },
+    "node_session_id": {
+      "type": "string"
+    },
     "device_id": {
       "type": "string"
     },
@@ -44,6 +47,7 @@
     "story_id",
     "story_version",
     "node_id",
+    "node_session_id",
     "device_id",
     "app_id",
     "session_id",
