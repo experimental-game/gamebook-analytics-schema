@@ -26,8 +26,8 @@
     "action": {
       "type": "string",
       "enum": [
-        "ENTER",
-        "LEAVE"
+        "NODE_ENTER",
+        "NODE_LEAVE"
       ]
     },
     "platform": {
