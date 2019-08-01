@@ -2,10 +2,10 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
-    "story_id": {
+    "workspace_id": {
       "type": "string"
     },
-    "story_version": {
+    "workspace_version": {
       "type": "string"
     },
     "node_id": {
@@ -44,8 +44,8 @@
     }
   },
   "required": [
-    "story_id",
-    "story_version",
+    "workspace_id",
+    "workspace_version",
     "node_id",
     "node_session_id",
     "device_id",
