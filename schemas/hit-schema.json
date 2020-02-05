@@ -38,6 +38,12 @@
         "web"
       ]
     },
+    "story_id": {
+      "type": "string"
+    },
+    "trigger_id": {
+      "type": "string"
+    },
     "timestamp": {
       "type": "string",
       "format": "date-time"
@@ -45,9 +51,7 @@
   },
   "required": [
     "workspace_id",
-    "workspace_version",
     "node_id",
-    "node_session_id",
     "device_id",
     "app_id",
     "session_id",
