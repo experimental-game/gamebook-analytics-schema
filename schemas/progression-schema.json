@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "game": {
+      "type": "string"
+    },
+    "session_id": {
+      "type": "string"
+    },
+    "userid": {
+      "type": "string"
+    },
+    "ts": {
+      "type": "integer"
+    },
+    "context_type": {
+      "type": "string"
+    },
+    "context_name": {
+      "type": "string"
+    },
+    "story_name": {
+      "type": "string"
+    },
+    "action_type": {
+      "type": "string"
+    },
+    "action_status": {
+      "type": "integer"
+    },
+    "action_value": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "session_id",
+    "userid",
+    "ts",
+    "context_type",
+    "context_name",
+    "story_name",
+    "action_type",
+    "action_status"
+  ]
+}

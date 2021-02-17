@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "game": {
+      "type": "string"
+    },
+    "userid": {
+      "type": "string"
+    },
+    "session_id": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "ts_payment": {
+      "type": "integer"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "provider": {
+      "type": "string"
+    },
+    "package": {
+      "type": "string"
+    },
+    "system_payment_id": {
+      "type": "string"
+    },
+    "cart_type": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "userid",
+    "session_id",
+    "country",
+    "ts_payment",
+    "amount",
+    "currency",
+    "provider",
+    "package",
+    "system_payment_id",
+    "cart_type"
+  ]
+}

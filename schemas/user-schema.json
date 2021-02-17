@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "game": {
+      "type": "string"
+    },
+    "userid": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "ts_creation": {
+      "type": "integer"
+    },
+    "platform": {
+      "type": "string",
+      "enum": [
+        "ios",
+        "android",
+        "web"
+      ]
+    },
+    "ts_update": {
+      "type": "integer"
+    },
+    "ad_id": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "facebook_id": {
+      "type": "integer"
+    },
+    "os_version": {
+      "type": "string"
+    },
+    "app_version": {
+      "type": "string"
+    },
+    "adjust_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "userid",
+    "country",
+    "ts_creation",
+    "platform",
+    "ts_update"
+  ]
+}

@@ -2,6 +2,9 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
+    "game": {
+      "type": "string"
+    },
     "workspace_id": {
       "type": "string"
     },
@@ -19,6 +22,9 @@
     },
     "story_id": {
       "type": "string"
+    },
+    "story_version": {
+      "type": "integer"
     },
     "trigger_id": {
       "type": "string"
