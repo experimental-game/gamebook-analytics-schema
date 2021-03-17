@@ -5,26 +5,30 @@
     "game": {
       "type": "string"
     },
-    "userid": {
+    "user_id": {
       "type": "string"
     },
     "session_id": {
       "type": "string"
     },
-    "ts": {
+    "timestamp": {
       "type": "integer"
     },
     "state": {
-      "type": "integer"
+      "type": "string",
+      "enum": [
+        "START",
+        "END"
+      ]
     },
     "app_version": {
       "type": "string"
     }
   },
   "required": [
-    "userid",
+    "user_id",
     "session_id",
-    "ts",
+    "timestamp",
     "state"
   ]
 }

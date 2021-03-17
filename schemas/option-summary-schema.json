@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "trigger_id": {
+      "type": "string"
+    },
+    "premium_tier": {
+      "type": "string"
+    },
+    "option_title": {
+      "type": "string"
+    },
+    "module_type": {
+      "type": "string"
+    },
+    "module_id": {
+      "type": "string"
+    },
+    "module_title": {
+      "type": "string"
+    },
+    "build_number": {
+      "type": "integer"
+    },
+    "episode_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "trigger_id",
+    "module_type",
+    "module_id",
+    "module_title",
+    "build_number",
+    "episode_id"
+  ]
+}

@@ -8,10 +8,10 @@
     "session_id": {
       "type": "string"
     },
-    "userid": {
+    "user_id": {
       "type": "string"
     },
-    "ts": {
+    "timestamp": {
       "type": "integer"
     },
     "currency": {
@@ -29,8 +29,8 @@
   },
   "required": [
     "session_id",
-    "userid",
-    "ts",
+    "user_id",
+    "timestamp",
     "currency",
     "amount"
   ]

@@ -5,7 +5,7 @@
     "game": {
       "type": "string"
     },
-    "userid": {
+    "user_id": {
       "type": "string"
     },
     "session_id": {
@@ -14,7 +14,7 @@
     "country": {
       "type": "string"
     },
-    "ts_payment": {
+    "timestamp": {
       "type": "integer"
     },
     "amount": {
@@ -37,10 +37,10 @@
     }
   },
   "required": [
-    "userid",
+    "user_id",
     "session_id",
     "country",
-    "ts_payment",
+    "timestamp",
     "amount",
     "currency",
     "provider",

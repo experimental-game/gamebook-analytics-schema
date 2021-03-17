@@ -5,25 +5,22 @@
     "game": {
       "type": "string"
     },
-    "userid": {
+    "user_id": {
       "type": "string"
     },
     "country": {
       "type": "string"
     },
-    "ts_creation": {
+    "timestamp": {
       "type": "integer"
     },
     "platform": {
       "type": "string",
       "enum": [
-        "ios",
-        "android",
-        "web"
+        "IOS",
+        "ANDROID",
+        "WEB"
       ]
-    },
-    "ts_update": {
-      "type": "integer"
     },
     "ad_id": {
       "type": "string"
@@ -48,10 +45,9 @@
     }
   },
   "required": [
-    "userid",
+    "user_id",
     "country",
-    "ts_creation",
-    "platform",
-    "ts_update"
+    "timestamp",
+    "platform"
   ]
 }
