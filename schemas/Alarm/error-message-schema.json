@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "session_id": {
+      "type": "string"
+    },
+    "app_version": {
+      "type": "string"
+    },
+    "error_code": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "os_version": {
+      "type": "string"
+    },
+    "origin": {
+      "type": "string"
+    },
+    "context": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "string",
+      "enum": [
+        "IOS",
+        "ANDROID",
+        "WEB"
+      ]
+    },
+    "timestamp": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "session_id",
+    "message",
+    "timestamp"
+  ]
+}
