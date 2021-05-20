@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "build_number": {
+      "type": "integer"
+    },
+    "episode_id": {
+      "type": "string"
+    },
+    "is_dead_end": {
+      "type": "boolean"
+    },
+    "is_end": {
+      "type": "boolean"
+    },
+    "is_start": {
+      "type": "boolean"
+    },
+    "module_id": {
+      "type": "string"
+    },
+    "module_title": {
+      "type": "string"
+    },
+    "module_type": {
+      "type": "string"
+    },
+    "node_id": {
+      "type": "string"
+    },
+    "trigger_count": {
+      "type": "integer"
+    },
+    "word_count": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "build_number",
+    "episode_id",
+    "is_dead_end",
+    "is_end",
+    "is_start",
+    "module_id",
+    "module_title",
+    "module_type",
+    "node_id",
+    "trigger_count",
+    "word_count"
+  ]
+}
